@@ -1,0 +1,2 @@
+screen -t Reverse_SSH /home/pi/Reverse-SSH-RPi/startRev.py 
+screen -t bash-1 bash

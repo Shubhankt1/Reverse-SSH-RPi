@@ -1,0 +1,10 @@
+[Unit]
+Description=screenrc
+
+[Service]
+User=pi
+Group=pi
+ExecStart="/home/pi/Reverse-SSH-RPi/runscreenrc.sh"
+
+[Install]
+WantedBy=multi-user.target
